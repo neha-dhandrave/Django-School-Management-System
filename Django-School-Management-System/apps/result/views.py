@@ -3,9 +3,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import redirect, render
 from django.views.generic import DetailView, ListView, View
-
 from apps.students.models import Student
-
 from .forms import CreateResults, EditResults
 from .models import Result
 
